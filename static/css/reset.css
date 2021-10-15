@@ -1,0 +1,60 @@
+@charset "UTF-8";
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}.clear{display:block; float:none; clear:both; overflow:hidden; visibility:hidden; width:0; height:0; background:none; border:0; font-size:0;} .clearfix:before, .clearfix:after{content:""; display:table; }.clearfix:after{ clear:both;}.clearfix{ zoom:1;}.fl{float:left;}.fr{float:right;}a{text-decoration: none;}
+
+
+
+.clearfix:before, .clearfix:after{content:""; display:table; }.clearfix:after{ clear:both;}.clearfix{ zoom:1;}
+body, html, input, button, select{font-size: 12px;font-family: "FZLTXHJW";}
+ul,
+li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: 'wenyue';
+	src: url('../fonts/wenyue.eot');
+	src: url('../fonts/wenyue.eot') format('embedded-opentype'), 
+	url('../fonts/wenyue.woff') format('woff'), 
+	url('../fonts/wenyue.ttf') format('truetype'), 
+	url('../fonts/wenyue.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NeutraText';
+	src: url('../fonts/neutratextbookalt.eot');
+	src: url('../fonts/neutratextbookalt.eot') format('embedded-opentype'), 
+	url('../fonts/neutratextbookalt.woff') format('woff'), 
+	url('../fonts/neutratextbookalt.ttf') format('truetype'),
+	url('../fonts/neutratextbookalt.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FZLTXHJW';
+	src: url('../fonts/fzltxhjw.eot');
+	src: url('../fonts/fzltxhjw.eot') format('embedded-opentype'), 
+	url('../fonts/fzltxhjw.woff') format('woff'), 
+	url('../fonts/fzltxhjw.ttf') format('truetype'), 
+	url('../fonts/fzltxhjw.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.wenyue {
+	font-family: 'wenyue';
+}
+
+.ntFont {
+	font-family: 'NeutraText' !important;
+}
+

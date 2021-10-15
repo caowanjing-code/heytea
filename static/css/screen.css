@@ -1,0 +1,1380 @@
+/*移动端展示*/
+
+.m {
+	display: none;
+}
+
+.m-about {
+	width: 96%;
+	display: none;
+	padding: 30px 2%;
+	font-size: 12px;
+}
+
+.m-about p {
+	font-size: 12px;
+	text-indent: 12px;
+}
+
+.m-about h2 {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.line {
+	width: 100%;
+	height: 1px;
+	border-bottom: .5px solid #ccc;
+	margin-top: 45px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.line .btn {
+	top: -14px;
+	left: 50%;
+	margin-left: -46px;
+}
+
+.m-about .erweimabox{
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	margin: 0;
+	left: 0;
+	margin-top: 40px;
+	display: block;
+}
+
+.m-about .r-erweima,
+.m-about .l-erweima {
+	margin: 0;
+	width: 50%;
+}
+
+.m-about img {
+	display: block;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 960px) and (max-width: 1279px) {
+	
+}
+
+
+/*大于大于768px小于960px*/
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	
+		/*banner 左右切换按钮*/
+	
+	.swiper-container .swiper-button-next,
+	.swiper-container .swiper-button-prev {
+		width: 18px;
+		height: 22px;
+		background-size: contain;
+	}
+	
+	.swiper_txt p{
+		transform:scale(.8);
+		-webkit-transform:scale(.8);
+	}
+	
+	/*导航和背景大图*/
+	.header .logo,
+	.header .seting{
+		display: none;
+	}
+	
+	.header {
+		width: 100%;
+		height: 40px;
+		left: 0;
+		bottom: 0;
+		top: initial;
+		z-index: 999;
+		padding: 0;
+		margin-left: 0;
+	}
+	
+	.nav-list {
+		width: 100%;
+	}
+	
+	.header .nav-list {
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+	}
+	
+	.nav-list li {
+		width: 33%;
+		height: 40px;
+	}
+	
+	.nav-list li a{
+		font-size: 14px;
+	}
+	
+	.banner_bg .pc {
+		min-width:initial ;
+		position: relative;
+		display: block;
+	}
+	
+	/*关于喜茶*/
+	
+	.about-con {
+		display: none;
+	}
+	
+	.m-about {
+		display: block;
+	}
+	
+	/*灵感之茶*/
+	
+	.prod {
+		min-width: initial;
+	}
+	
+	.prod_con {
+		width: 100%;
+		height: 630px;
+	}
+	
+	.prod_1,
+	.prod_2,
+	.prod_3,
+	.prod{
+		height: 630px;
+	}
+
+	.prod_con .prod_txt {
+		position: initial;
+		padding-top: 20px;
+		width: 96%;
+		padding-left: 2%;
+		padding-right: 2%;
+		height: auto;	
+		margin-bottom: 20px;
+	}
+	
+	.prod_txt p {
+		font-size: 12px;
+	}
+	
+	.prod_txt h2 {
+		padding: 20px 0;
+		padding-bottom: 10px;
+	}
+	
+	
+	
+	.pro_box {
+		width: 34%;
+		max-height: 360px;
+		left: 33%;
+		background-size: 100% 100%;
+	}
+	
+	.pro_line {
+		display: none;
+	}
+	
+	.sz {
+		display: none;
+	}
+	
+	.yz1 {
+		display: none;
+	}
+	
+	.yz2 {
+		display: none;
+	}
+	
+	.prod_2 .pro_box {
+		width: 34%;
+		left: 33%;
+		z-index: 999;
+		max-height: 360px;
+	}
+	
+	.prod_2 .pro_box2 {
+		display: none;
+	}
+	
+	.prod_3 .pro_box {
+		width: 34%;
+		left: 33%;
+		max-height: 340px;
+	}
+	
+	.prod_3 .pro_box2 {
+		width: 50%;
+		left: 25%;
+		display: none;
+		max-height: 360px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.prod_3 .pro_box3 {
+		width: 110px;
+		height: 80px;
+		display: none;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.prod_4 .pro_box {
+		width: 34%;
+		left: 33%;
+		z-index: 9999;
+		max-height: 360px;
+	}
+	
+	.prod_4 .pro_box2 {
+		width: 140px;
+		height: 120px;
+		right: 60%;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.prod_4 .pro_box3 {
+		width: 140px;
+		height: 200px;
+		right: 24%;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	/*门店列表*/
+	
+	.store_box {
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	.store_box .title {
+		width: 100%;
+		min-width: initial;
+	}
+	
+	.store_item li {
+		width: 30%;
+		font-size: 12px;
+		line-height: initial;
+	}
+	
+	.store_area {
+		font-size: 18px;
+	}
+	
+	/*严正声明*/
+	
+	.tipsBox {
+		margin-top: 0px;
+		padding-bottom: 30px;
+		width: 100%;
+	}
+	
+	.yzsm {
+		-webkit-transform:scale(0.8)
+	}
+	
+	.tipsBox p {
+		padding: 0 10px;
+		font-size: 12px;
+		text-indent: 24px;
+		line-height: 22px;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+	/*轮播*/
+	
+	.swiper-container  img {
+		min-width: initial;
+		min-height: 300px;
+	}
+	
+	.swiper_txt {
+		width: 100%;
+		left: 0;
+		margin-left: 0;
+		bottom: 20px;
+	}
+	
+	.swiper_txt .title {
+		font-size: 12px;
+	}
+	
+	.swiper_txt p {
+		font-size: 12px;
+	}
+	
+	/*礼品卡*/
+	
+	.cardCon {
+		width: 100%;
+	}
+	
+	.phone2 {
+		width: 400px;
+		height: 630px;
+		top: 30px;
+		left: 10%;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.card_txt {
+		top: 700px;
+		width: 100%;
+		left: 0;
+	}
+	
+	.card_txt p,
+	.card_txt2 p {
+		transform: scale(.9);
+    	-webkit-transform: scale(.9);
+	}
+	
+	.card_txt .title,
+	.card_txt2 .title {
+		font-size: 18px;
+	}
+	
+	.card_txt2 {
+		top: 1100px;
+		width: 100%;
+		left: 0;
+	}
+	
+	.cardBox,
+	.cardCon {
+		height: 1900px;
+	}
+	
+	.phone1 {
+		width: 400px;
+		height: 460px;
+		right: 10%;
+		bottom: 0;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	
+	/*footer*/
+	
+	.footerCon {
+		width: 100%;
+		height: 170px;
+	}
+	
+	.footer {
+		height: 170px;
+		padding: 20px 0;
+	}
+	
+	.footerCon .p1 {
+		display: none;
+	}
+	
+	.footerDIvl {
+		display: none;
+	}
+	
+		
+	.footerDIvr {
+		position: initial;
+		font-size: 14px;
+		width: 96%;
+		padding: 0 2%;
+	}
+	
+	.footerDIvr p {
+		text-align: left;
+		font-size: 12px;
+	}
+	
+	.footerDIvr #_pingansec_bottomimagelarge_brand  {
+		float: left;
+		display: block;
+		text-align: left;
+	}
+	
+		/*关于我们*/
+	
+	.a_title {
+		height: 40px;
+		font-size: 15px;
+		line-height: 20px;
+		margin-bottom: 5px;
+	}
+	
+	.a_txt2 {
+		line-height: 24px;
+		font-size: 13px;
+		padding: 0 10px;
+		text-align: left;
+		text-indent: 20px;
+	}
+	
+	.a_ch {
+		max-width: 100%;
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+	
+	.acon1 {
+		width: 100%;
+		padding: 30px 0;
+	}
+	
+	.lineTime {
+		width: 100%;
+	}
+	
+	.lineTime li {
+		width: 96%;
+		padding: 0 2%;
+	}
+	
+	.timeBar {
+		width: 100px;
+		font-size: 13px;
+		font-weight: bold;
+		font-family: "NeutraText";
+	}
+	
+	.timeCon {
+		width: 55%;
+		font-size: 14px;
+		width: calc(90% - 110px);
+	}
+	
+	
+
+
+}
+
+/*大于大于640px小于768px*/
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	
+		/*banner 左右切换按钮*/
+	
+	.swiper-container .swiper-button-next,
+	.swiper-container .swiper-button-prev {
+		width: 18px;
+		height: 22px;
+		background-size: contain;
+	}
+	
+	.swiper_txt p{
+		transform:scale(.8);
+		-webkit-transform:scale(.8);
+	}
+	
+	
+	
+	/*导航和背景大图*/
+	.header .logo,
+	.header .seting{
+		display: none;
+	}
+	
+	.header {
+		width: 100%;
+		height: 40px;
+		left: 0;
+		bottom: 0;
+		top: initial;
+		z-index: 999;
+		padding: 0;
+		margin-left: 0;
+	}
+	
+	.nav-list {
+		width: 100%;
+	}
+	
+	.header .nav-list {
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+	}
+	
+	.nav-list li {
+		width: 33%;
+		height: 40px;
+	}
+	
+	.nav-list li a{
+		font-size: 14px;
+	}
+	
+	.banner_bg .pc {
+		min-width:initial ;
+		position: relative;
+		display: none;
+	}
+	
+	.banner_bg .m {
+		min-width:initial ;
+		position: relative;
+		display: block;
+	}
+	
+	/*关于喜茶*/
+	
+	.about-con {
+		display: none;
+	}
+	
+	.m-about {
+		display: block;
+	}
+	
+	/*灵感之茶*/
+	
+	.prod {
+		min-width: initial;
+	}
+	
+	.prod_con {
+		width: 100%;
+		height: 630px;
+	}
+	
+	.prod_1,
+	.prod_2,
+	.prod_3,
+	.prod{
+		height: 630px;
+	}
+
+	.prod_con .prod_txt {
+		position: initial;
+		padding-top: 20px;
+		width: 96%;
+		padding-left: 2%;
+		padding-right: 2%;
+		height: auto;	
+		margin-bottom: 20px;
+	}
+
+	.prod_txt p {
+		font-size: 12px;
+	}
+
+	.prod_txt h2 {
+		padding: 20px 0;
+		padding-bottom: 10px;
+	}
+		
+	
+	.pro_box {
+		width: 40%;
+		max-height: 360px;
+		left: 30%;
+		background-size: 100% 100%;
+	}
+	
+	.pro_line {
+		display: none;
+	}
+	
+	.sz {
+		display: none;
+	}
+	
+	.yz1 {
+		display: none;
+	}
+	
+	.yz2 {
+		display: none;
+	}
+	
+	.prod_2 .pro_box {
+		width: 40%;
+		left: 30%;
+		z-index: 999;
+		max-height: 360px;
+	}
+	
+	.prod_2 .pro_box2 {
+		display: none;
+	}
+	
+	.prod_3 .pro_box {
+		width: 40%;
+		left: 30%;
+		max-height: 340px;
+	}
+	
+	.prod_3 .pro_box2 {
+		width: 50%;
+		left: 25%;
+		display: none;
+		max-height: 360px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.prod_3 .pro_box3 {
+		width: 110px;
+		height: 80px;
+		display: none;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.prod_4 .pro_box {
+		width: 40%;
+		left: 30%;
+		z-index: 9999;
+		max-height: 360px;
+	}
+	
+	.prod_4 .pro_box2 {
+		width: 140px;
+		height: 120px;
+		right: 62%;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.prod_4 .pro_box3 {
+		width: 140px;
+		height: 200px;
+		right: 18%;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	/*门店列表*/
+	
+	.store_box {
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	.store_box .title {
+		width: 100%;
+		min-width: initial;
+	}
+	
+	.store_item li {
+		width: 30%;
+		font-size: 12px;
+		line-height: initial;
+	}
+	
+	.store_area {
+		font-size: 18px;
+	}
+	
+	/*严正声明*/
+	
+	.tipsBox {
+		margin-top: 0px;
+		padding-bottom: 30px;
+		width: 100%;
+	}
+	
+	.yzsm {
+		-webkit-transform:scale(0.8)
+	}
+	
+	.tipsBox p {
+		padding: 0 10px;
+		font-size: 12px;
+		text-indent: 24px;
+		line-height: 22px;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+	/*轮播*/
+	
+	.swiper-container  img {
+		min-width: initial;
+		min-height: 300px;
+	}
+	
+	.swiper_txt {
+		width: 100%;
+		left: 0;
+		margin-left: 0;
+		bottom: 20px;
+	}
+	
+	.swiper_txt .title {
+		font-size: 12px;
+	}
+	
+	.swiper_txt p {
+		font-size: 12px;
+	}
+	
+	/*礼品卡*/
+	
+	.cardCon {
+		width: 100%;
+	}
+	
+	.phone2 {
+		width: 400px;
+		height: 630px;
+		top: 30px;
+		left: 10%;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.card_txt {
+		top: 700px;
+		width: 100%;
+		left: 0;
+	}
+	
+	.card_txt p,
+	.card_txt2 p {
+		transform: scale(.9);
+    	-webkit-transform: scale(.9);
+	}
+	
+	.card_txt .title,
+	.card_txt2 .title {
+		font-size: 18px;
+	}
+	
+	.card_txt2 {
+		top: 1100px;
+		width: 100%;
+		left: 0;
+	}
+	
+	.cardBox,
+	.cardCon {
+		height: 1900px;
+	}
+	
+	.phone1 {
+		width: 400px;
+		height: 460px;
+		right: 10%;
+		bottom: 0;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	
+	/*footer*/
+	
+	.footerCon {
+		width: 100%;
+		height: 170px;
+	}
+	
+	.footer {
+		height: 170px;
+		padding: 20px 0;
+	}
+	
+	.footerCon .p1 {
+		display: none;
+	}
+	
+	.footerDIvl {
+		display: none;
+	}
+	
+		
+	.footerDIvr {
+		position: initial;
+		font-size: 14px;
+		width: 96%;
+		padding: 0 2%;
+	}
+	
+	.footerDIvr p {
+		text-align: left;
+		font-size: 12px;
+	}
+	
+	.footerDIvr #_pingansec_bottomimagelarge_brand  {
+		float: left;
+		display: block;
+		text-align: left;
+	}
+	
+		/*关于我们*/
+	
+	.a_title {
+		height: 40px;
+		font-size: 15px;
+		line-height: 20px;
+		margin-bottom: 5px;
+	}
+	
+	.a_txt2 {
+		line-height: 24px;
+		font-size: 13px;
+		padding: 0 10px;
+		text-align: left;
+		text-indent: 20px;
+	}
+	
+	.a_ch {
+		max-width: 100%;
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+	
+	.acon1 {
+		width: 100%;
+		padding: 30px 0;
+	}
+	
+	.lineTime {
+		width: 100%;
+	}
+	
+	.lineTime li {
+		width: 96%;
+		padding: 0 2%;
+	}
+	
+	.timeBar {
+		width: 100px;
+		font-size: 13px;
+		font-weight: bold;
+		font-family: "NeutraText";
+	}
+	
+	.timeCon {
+		width: 55%;
+		font-size: 14px;
+		width: calc(90% - 110px);
+	}
+		
+		/*地图*/
+	#mapBox{
+	width:80%;
+	height:400px;
+	left: 0;
+	margin-top: -200px;
+	margin-left: 10%;
+	}
+	
+
+}
+
+/*小于640*/
+@media only screen and (max-width: 639px) {
+	
+	/*banner 左右切换按钮*/
+	
+	.swiper-container .swiper-button-next,
+	.swiper-container .swiper-button-prev {
+		width: 18px;
+		height: 22px;
+		background-size: contain;
+	}
+	
+	.swiper_txt p{
+		transform:scale(.8);
+		-webkit-transform:scale(.8);
+	}
+	
+	
+	/*导航和背景大图*/
+	.header .logo,
+	.header .seting{
+		display: none;
+	}
+	
+	.header {
+		width: 100%;
+		height: 40px;
+		left: 0;
+		bottom: 0;
+		top: initial;
+		z-index: 999;
+		padding: 0;
+		margin-left: 0;
+	}
+	
+	.nav-list {
+		width: 100%;
+	}
+	
+	.header .nav-list {
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+	}
+	
+	.nav-list li {
+		width: 33%;
+		height: 40px;
+	}
+	
+	.nav-list li a{
+		font-size: 14px;
+	}
+	
+	.banner_bg .pc {
+		min-width:initial ;
+		position: relative;
+		display: none;
+	}
+	
+	.banner_bg .m {
+		min-width:initial ;
+		position: relative;
+		display: block;
+	}
+	
+	/*关于喜茶*/
+	
+	.about-con {
+		display: none;
+	}
+	
+	.m-about {
+		display: block;
+	}
+	
+	/*灵感之茶*/
+	
+	.prod {
+		min-width: initial;
+	}
+	
+	.prod_con {
+		width: 100%;
+		height: 630px;
+	}
+	
+	.prod_1,
+	.prod_2,
+	.prod_3,
+	.prod{
+		height: 630px;
+	}
+
+	.prod_con .prod_txt {
+		position: initial;
+		padding-top: 20px;
+		width: 96%;
+		padding-left: 2%;
+		padding-right: 2%;
+		height: auto;	
+		margin-bottom: 20px;
+	}
+
+	.prod_txt p {
+		font-size: 12px;
+	}	
+
+	.prod_txt h2 {
+		padding: 20px 0;
+		padding-bottom: 10px;
+	}
+	
+
+	
+	.pro_box {
+		width: 60%;
+		max-height: 300px;
+		left: 20%;
+		background-size: 100% 100%;
+	}
+	
+	.pro_line {
+		width: 110%;
+		left: 10px;
+		top: -60px;
+		height: 100px;
+		background-size: 100% 100%;
+	}
+	
+	.sz {
+		width: 65px;
+		height: 65px;
+		background-size: contain;
+	}
+	
+	.yz1 {
+		width: 55px;
+		height: 50px;
+		background-size: contain;
+	}
+	
+	.yz2 {
+		width: 60px;
+		height: 55px;
+		left: 110%;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.prod_2 .pro_box {
+		width: 70%;
+		left: 15%;
+		z-index: 999;
+		max-height: 360px;
+	}
+	
+	.prod_2 .pro_box2 {
+		display: none;
+	}
+	
+	.prod_3 .pro_box {
+		width: 70%;
+		left: 15%;
+		max-height: 340px;
+	}
+	
+	.prod_3 .pro_box2 {
+		width: 90%;
+		left: 6%;
+		max-height: 380px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.prod_3 .pro_box3 {
+		width: 110px;
+		height: 80px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.prod_4 .pro_box {
+		width: 60%;
+		left: 20%;
+		z-index: 9999;
+		max-height: 320px;
+	}
+	
+	.prod_4 .pro_box2 {
+		width: 140px;
+		height: 120px;
+		left: -20px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.prod_4 .pro_box3 {
+		width: 140px;
+		height: 200px;
+		right: -20px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	/*门店列表*/
+	
+	.store_box {
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	.store_box .title {
+		width: 100%;
+		min-width: initial;
+	}
+	
+	.store_item li {
+		width: 30%;
+		font-size: 12px;
+		line-height: initial;
+	}
+	
+	.store_area {
+		font-size: 18px;
+	}
+	
+	/*严正声明*/
+	
+	.tipsBox {
+		margin-top: 0px;
+		padding-bottom: 30px;
+		width: 100%;
+	}
+	
+	.yzsm {
+		-webkit-transform:scale(0.8)
+	}
+	
+	.tipsBox p {
+		padding: 0 10px;
+		font-size: 12px;
+		text-indent: 24px;
+		line-height: 22px;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+	/*轮播*/
+	
+	.swiper-container  img {
+		min-width: initial;
+		min-height: 300px;
+	}
+	
+	.swiper_txt {
+		width: 100%;
+		left: 0;
+		margin-left: 0;
+		bottom: 20px;
+	}
+	
+	.swiper_txt .title {
+		font-size: 12px;
+	}
+	
+	.swiper_txt p {
+		font-size: 12px;
+	}
+	
+	/*礼品卡*/
+	
+	.cardCon {
+		width: 100%;
+	}
+	
+	.phone2 {
+		width: 300px;
+		height: 530px;
+		top: 30px;
+		left: 20px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.card_txt {
+		top: 550px;
+		width: 100%;
+		left: 0;
+	}
+	
+	.card_txt .title,
+	.card_txt2 .title {
+		font-size: 18px;
+	}
+	
+	.card_txt p,
+	.card_txt2 p {
+		transform: scale(.9);
+    	-webkit-transform: scale(.9);
+	}
+	
+	.card_txt2 {
+		bottom: 0;
+		width: 100%;
+		height: 360px;
+		left: 0;
+	}
+	
+	.cardBox,
+	.cardCon {
+		height: 1700px;
+	}
+	
+	.phone1 {
+		width: 300px;
+		height: 340px;
+		right: 10px;
+		bottom: 400px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	
+	/*footer*/
+	
+	.footerCon {
+		width: 100%;
+		height: 170px;
+	}
+	
+	.footer {
+		height: 170px;
+		padding: 20px 0;
+	}
+	
+	.footerCon .p1 {
+		display: none;
+	}
+	
+	.footerDIvl {
+		display: none;
+	}
+	
+		
+	.footerDIvr {
+		position: initial;
+		font-size: 14px;
+		width: 96%;
+		padding: 0 2%;
+	}
+	
+	.footerDIvr p {
+		text-align: left;
+		font-size: 12px;
+	}
+	
+	.footerDIvr #_pingansec_bottomimagelarge_brand  {
+		float: left;
+		display: block;
+		text-align: left;
+	}
+	
+	/*关于我们*/
+	
+	.a_title {
+		height: 40px;
+		font-size: 15px;
+		line-height: 20px;
+		margin-bottom: 5px;
+	}
+	
+	.a_txt2 {
+		line-height: 24px;
+		font-size: 13px;
+		padding: 0 10px;
+		text-align: left;
+		text-indent: 20px;
+	}
+	
+	.a_ch {
+		max-width: 100%;
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+	
+	.acon1 {
+		width: 100%;
+		padding: 30px 0;
+	}
+	
+	.lineTime {
+		width: 100%;
+	}
+	
+	.lineTime li {
+		width: 96%;
+		padding: 0 2%;
+	}
+	
+	.timeBar {
+		width: 100px;
+		font-size: 13px;
+		font-weight: bold;
+		font-family: "NeutraText";
+	}
+	
+	.timeCon {
+		width: 55%;
+		font-size: 14px;
+		width: calc(90% - 110px);
+	}
+	
+	/*地图*/
+	#mapBox{
+	width:80%;
+	height:300px;
+	left: 0;
+	margin-top: -150px;
+	margin-left: 10%;
+	}
+	
+	@keyframes line-sz {
+	0%{
+		opacity: 0;
+		top: 0px;
+		left: 60px;
+		transform:scale(0.4) rotate(-360deg);
+		-webkit-transform:scale(0.4) rotate(-360deg);
+	}
+    100% {
+    	opacity: 1;
+    	top: -70px;
+		left: -65px;
+		transform:scale(1) rotate(0deg);
+		-webkit-transform:scale(1) rotate(0deg);
+    } 
+}
+
+@keyframes line-yz1 {
+	0%{
+		opacity: 0;
+		top: 0;
+		left: 100px;
+		transform:scale(0.4) rotate(-360deg);
+		-webkit-transform:scale(0.4) rotate(-360deg);
+	}
+	
+	100%{
+		top: -110px;
+		left: 40px;
+		transform:scale(1) rotate(0deg);
+		-webkit-transform:scale(1) rotate(0deg);
+	}
+}
+	
+@keyframes line-x {
+            0% {
+                opacity: 0;
+                top: 550px;
+                right: 400px;
+                transform:scale(1);
+                -webkit-transform:scale(1);
+            }
+            20% {
+            	opacity: 1;
+            }
+            40% {
+                opacity: 0;
+                top: 370px;
+                right: -20px; 
+                transform:scale(0.7);
+                -webkit-transform:scale(0.7);
+            }
+        	50% {
+        		opacity: 0;
+        		top: 370px;
+                right: 360px;
+                
+        	}
+        	75% {
+        		opacity: 0.2;
+        		transform:scale(0.8);
+ 				-webkit-transform:scale(0.8);
+        	}
+        	100% {
+        		opacity: 1;
+        		right: -20px;
+				top: 180px;
+				transform:scale(1);
+				-webkit-transform:scale(1);
+        	}
+     
+        }
+
+
+
+}
+
+
+
+
